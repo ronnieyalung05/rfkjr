@@ -3,7 +3,7 @@
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~ -->
   <!-- Controller Launches. profproject control and CBF -->
   <node pkg="rfkjr" type="rfkjr" name="rfkjr_node" output="screen">
-		<remap from="/cmd_accel" to="/cmd_accel_pre"/>
+		<remap from="/egocar/cmd_accel" to="/cmd_accel_pre"/>
 	</node>
 <!-- CBF params -->
   <arg name="description" default="rfkjr_controller2"/>
