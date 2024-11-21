@@ -74,13 +74,13 @@ endif()
 target_compile_options(rfkjr PUBLIC 
   $<$<OR:$<COMPILE_LANGUAGE:CXX>,$<COMPILE_LANGUAGE:C>>:
   -DMODEL=rfkjr
-  -DNUMST=2
-  -DNCSTATES=2
+  -DNUMST=1
+  -DNCSTATES=0
   -DHAVESTDIO
   -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0
   -DCLASSIC_INTERFACE=0
   -DALLOCATIONFCN=0
-  -DTID01EQ=1
+  -DTID01EQ=0
   -DONESTEPFCN=1
   -DTERMFCN=1
   -DMULTI_INSTANCE_CODE=0
@@ -126,4 +126,4 @@ add_custom_command(
                    ARGS -E copy ${PROJECT_SOURCE_DIR}/src/${file_i} ${CATKIN_DEVEL_PREFIX}/rfkjr_ert_rtw/${file_i}
 				   )
 endforeach(file_i)
-# Generated on Mon Nov 18 01:27:37 2024
+# Generated on Wed Nov 20 18:00:40 2024

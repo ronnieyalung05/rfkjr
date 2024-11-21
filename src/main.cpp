@@ -3,9 +3,9 @@
 //
 // Code generated for Simulink model 'rfkjr'.
 //
-// Model version                  : 1.8
+// Model version                  : 1.31
 // Simulink Coder version         : 24.1 (R2024a) 19-Nov-2023
-// C/C++ source code generated on : Mon Nov 18 01:27:36 2024
+// C/C++ source code generated on : Wed Nov 20 18:00:35 2024
 //
 
 #include <stdio.h>

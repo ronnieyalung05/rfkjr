@@ -9,9 +9,6 @@ SimulinkSubscriber<std_msgs::Float64, SL_Bus_rfkjr_std_msgs_Float64> Sub_rfkjr_1
 // For Block rfkjr/Subscribe1
 SimulinkSubscriber<std_msgs::Float64, SL_Bus_rfkjr_std_msgs_Float64> Sub_rfkjr_22;
 
-// For Block rfkjr/Subscribe2
-SimulinkSubscriber<std_msgs::Float64, SL_Bus_rfkjr_std_msgs_Float64> Sub_rfkjr_23;
-
 // For Block rfkjr/Subscribe3
 SimulinkSubscriber<std_msgs::Float64, SL_Bus_rfkjr_std_msgs_Float64> Sub_rfkjr_24;
 

@@ -7,9 +7,9 @@
  *
  * Code generation for model "rfkjr".
  *
- * Model version              : 1.8
+ * Model version              : 1.31
  * Simulink Coder version : 24.1 (R2024a) 19-Nov-2023
- * C++ source code generated on : Mon Nov 18 01:27:32 2024
+ * C++ source code generated on : Wed Nov 20 18:00:21 2024
  *
  * Target selection: ert.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
@@ -43,57 +43,27 @@ P_rfkjr_T rfkjr_P = {
     0.0                                /* Data */
   },
 
-  /* Computed Parameter: Constant_Value_a
+  /* Computed Parameter: Constant_Value_b
    * Referenced by: '<S6>/Constant'
    */
   {
     0.0                                /* Data */
   },
 
-  /* Computed Parameter: Constant_Value_b
-   * Referenced by: '<S7>/Constant'
+  /* Expression: 5
+   * Referenced by: '<S7>/Saturation'
    */
-  {
-    0.0                                /* Data */
-  },
+  5.0,
 
-  /* Expression: 80
-   * Referenced by: '<S8>/Saturation'
+  /* Expression: -5
+   * Referenced by: '<S7>/Saturation'
    */
-  80.0,
-
-  /* Expression: 0
-   * Referenced by: '<S8>/Saturation'
-   */
-  0.0,
-
-  /* Computed Parameter: TransferFcn_A
-   * Referenced by: '<S8>/Transfer Fcn'
-   */
-  -0.5,
-
-  /* Computed Parameter: TransferFcn_C
-   * Referenced by: '<S8>/Transfer Fcn'
-   */
-  0.5,
-
-  /* Start of '<S7>/Enabled Subsystem' */
-  {
-    /* Computed Parameter: Out1_Y0
-     * Referenced by: '<S12>/Out1'
-     */
-    {
-      0.0                              /* Data */
-    }
-  }
-  ,
-
-  /* End of '<S7>/Enabled Subsystem' */
+  -5.0,
 
   /* Start of '<S6>/Enabled Subsystem' */
   {
     /* Computed Parameter: Out1_Y0
-     * Referenced by: '<S11>/Out1'
+     * Referenced by: '<S10>/Out1'
      */
     {
       0.0                              /* Data */
@@ -106,7 +76,7 @@ P_rfkjr_T rfkjr_P = {
   /* Start of '<S5>/Enabled Subsystem' */
   {
     /* Computed Parameter: Out1_Y0
-     * Referenced by: '<S10>/Out1'
+     * Referenced by: '<S9>/Out1'
      */
     {
       0.0                              /* Data */
@@ -119,7 +89,7 @@ P_rfkjr_T rfkjr_P = {
   /* Start of '<S4>/Enabled Subsystem' */
   {
     /* Computed Parameter: Out1_Y0
-     * Referenced by: '<S9>/Out1'
+     * Referenced by: '<S8>/Out1'
      */
     {
       0.0                              /* Data */
